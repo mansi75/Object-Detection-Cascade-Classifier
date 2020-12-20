@@ -1,4 +1,4 @@
-# Object-Detection-Cascade-Classifier
+# Object Detection Using Haar Cascade Classifier
 Viola Jones algorithm is named after two computer vision researchers who proposed the method in 2001, Paul Viola and Michael Jones in their paper, “Rapid Object Detection using a Boosted Cascade of Simple Features”. This framework can be trained to detect almost any object, but this primarily solves the problem of face detection in real-time. 
 
 ### The Viola Jones algorithm has four main steps
