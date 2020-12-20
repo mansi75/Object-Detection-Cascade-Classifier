@@ -47,6 +47,26 @@ while(True):
 cap.release()
 
 cv.destroyAllWindows()
+
+#Bus Detection
+
+cap = cv.VideoCapture('bus.mp4')
+
+while(True):
+  
+  ret, frame = cap.read()
+  
+  if (type(frame) == type(None)):
+    break
+    
+  object_detection(frame, bus_cascade, 'bus')
+  
+  if cv.waitKey(1) & 0xFF == ord('q'):
+    break
+    
+  cap.release()
+  cv.destroyAllWindows()
+    
   
   
   
