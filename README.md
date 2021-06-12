@@ -5,7 +5,9 @@ Viola Jones algorithm is named after two computer vision researchers who propose
 * [Requirements](#Requirements)
 *  [Example Usage](#usage)
 
+
 <a id="About"></a>
+## About
 
 ### The Viola Jones algorithm has four main steps
 1. Selecting Haar-like features
