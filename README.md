@@ -6,6 +6,7 @@ Viola Jones algorithm is named after two computer vision researchers who propose
 *  [Example Usage](#usage)
 
 <a id="About"></a>
+
 ### The Viola Jones algorithm has four main steps
 1. Selecting Haar-like features
 2. Creating an integral image
@@ -30,6 +31,7 @@ For a window of 24x24 pixels, there can be about 160,000 possible features,but o
 the AdaBoost will finally select the best features around say 2500, but it is still a time-consuming process to calculate these features for each region. We have a 24×24 window which we slide over the input image, and we need to find if any of those regions contain the face. The job of the cascade is to quickly discard non-faces, and avoid wasting precious time and computations. Thus, achieving the speed necessary for real-time face detection.
 
 <a id="Requirements"></a>
+
 ## Requirements
 <ul>
   <li>Python 3.x</li>
