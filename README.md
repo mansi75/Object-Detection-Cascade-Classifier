@@ -2,11 +2,10 @@
 Viola Jones algorithm is named after two computer vision researchers who proposed the method in 2001, Paul Viola and Michael Jones in their paper, “Rapid Object Detection using a Boosted Cascade of Simple Features”. This framework can be trained to detect almost any object, but this primarily solves the problem of face detection in real-time. 
 
 * [About](#About)
-* [Features](#features)
-* [Dataset](#dataset)
+* [Requirements](#Requirements)
 *  [Example Usage](#usage)
 
-<a id="About"</a>
+<a id="About"></a>
 ### The Viola Jones algorithm has four main steps
 1. Selecting Haar-like features
 2. Creating an integral image
@@ -29,3 +28,11 @@ For a window of 24x24 pixels, there can be about 160,000 possible features,but o
 
 ### Cascade Classifier
 the AdaBoost will finally select the best features around say 2500, but it is still a time-consuming process to calculate these features for each region. We have a 24×24 window which we slide over the input image, and we need to find if any of those regions contain the face. The job of the cascade is to quickly discard non-faces, and avoid wasting precious time and computations. Thus, achieving the speed necessary for real-time face detection.
+
+<a id="Requirements"></a>
+## Requirements
+<ul>
+  <li>Python 3.x</li>
+  <li>OpenCV 2.x</li>
+</ul
+
