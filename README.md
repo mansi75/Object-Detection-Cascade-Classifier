@@ -3,7 +3,7 @@ Viola Jones algorithm is named after two computer vision researchers who propose
 
 * [About](#About)
 * [Requirements](#Requirements)
-*  [Example Usage](#usage)
+*  [GettingStarted](#Getting Started)
 
 
 <a id="About"></a>
@@ -40,3 +40,9 @@ the AdaBoost will finally select the best features around say 2500, but it is st
   <li>OpenCV 2.x</li>
 </ul
 
+<a id="GettingStarted"></a>
+## Getting Started
+<ul>
+  <li>Download and import the requirements in jupyter notebook</li>
+  <li>Clone the repository and paste it inside your jupyter notebook or python file to run the app.</li>
+</ul>
