@@ -3,7 +3,7 @@ Viola Jones algorithm is named after two computer vision researchers who propose
 
 * [About](#About)
 * [Requirements](#Requirements)
-*  [GettingStarted](#Getting Started)
+*  [GettingStarted](#GettingStarted)
 
 
 <a id="About"></a>
